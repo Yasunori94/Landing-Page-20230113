@@ -12,12 +12,8 @@ body{
     margin: 0;
 }
 
-section{
-    display: grid;
-    place-items: center;
-    align-content: center;
-    min-height: 100vh;
-    padding: 10%;
+.head_background{
+    background-color: #FFFFFF;
 }
 
 .h1color{
@@ -36,6 +32,15 @@ section{
     margin: 2rem;
 }
 
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    padding: 10%;
+}
+
+/* first svg */
 .custom-shape-divider-top-1673588459 {
     position: relative;
     left: 0;
@@ -55,10 +60,7 @@ section{
     fill: #FFFFFF;
 }
 
-.head_background{
-    background-color: #FFFFFF;
-}
-
+/* background colors of each sections */
 .color1{
     background-color: rgb(142, 174, 78);
 }
@@ -72,6 +74,7 @@ section{
     background-color: cadetblue;
 }
 
+/* hidden/show effects */
 .hidden{
     opacity: 0;
     filter: blur(3px);
@@ -85,6 +88,7 @@ section{
     transform: translateX(0);
 }
 
+/* bottom svg of 1st section */
 .custom-shape-divider-bottom-1673586442 {
     position: relative;
     bottom: 0;
@@ -106,6 +110,7 @@ section{
     fill: #FFFFFF;
 }
 
+/* top svg of 2nd section */
 .custom-shape-divider-top-1673587087 {
     position: relative;
     top: 0;
@@ -126,6 +131,7 @@ section{
     fill: #FFFFFF;
 }
 
+/* bottom svg of 2nd section */
 .custom-shape-divider-bottom-1673589700 {
     position: relative;
     bottom: 0;
@@ -147,6 +153,7 @@ section{
     fill: #FFFFFF;
 }
 
+/* top svg of 3rd section */
 .custom-shape-divider-top-1673588069 {
     position: relative;
     top: 0;
@@ -167,6 +174,7 @@ section{
     fill: #FFFFFF;
 }
 
+/* bottom svg of 3rd section */
 .custom-shape-divider-bottom-1673588211 {
     position: relative;
     bottom: 0;
